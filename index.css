@@ -486,7 +486,7 @@ Page Styles
     transform: scale(1.2) translateY(-5px);
 }
 .sec-title {
-    margin-bottom: 50px;
+    margin-bottom: 50px; 
 }
 
 .pg-title {
