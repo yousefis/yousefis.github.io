@@ -1,0 +1,194 @@
+%\documentstyle[11pt,a4]{article}
+%\documentclass[a4paper]{article}
+\documentclass[a4paper, 10pt]{article}
+% Seems like it does not support 9pt and less. Anyways I should stick to 10pt.
+%\documentclass[a4paper, 9pt]{article}
+\topmargin-2.0cm
+
+\usepackage{fancyhdr}
+\usepackage{pagecounting}
+\usepackage[dvips]{color}
+\usepackage{wrapfig}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+% Color Information from - http://www-h.eng.cam.ac.uk/help/tpl/textprocessing/latex_advanced/node13.html
+
+% NEW COMMAND
+% marginsize{left}{right}{top}{bottom}:
+%\marginsize{3cm}{2cm}{1cm}{1cm}
+%\marginsize{0.85in}{0.85in}{0.625in}{0.625in}
+
+\def\ie{{\em i.e.,}}
+\def\eg{{\em e.g.,}}
+\newcommand{\tabref}[1]{Table~\ref{#1}}
+\newcommand{\figref}[1]{Figure~\ref{#1}}
+\newcommand{\secref}[1]{Section~\ref{#1}}
+
+\advance\oddsidemargin-0.65in
+%\advance\evensidemargin-1.5cm
+\textheight9.2in
+\textwidth6.75in
+\newcommand\bb[1]{\mbox{\em #1}}
+\def\baselinestretch{1.05}
+%\pagestyle{empty}
+
+\newcommand{\hsp}{\hspace*{\parindent}}
+\definecolor{gray}{rgb}{0.4,0.4,0.4}
+%\definecolor{gray}{rgb}{1.0,1.0,1.0}
+
+
+\begin{document}
+\thispagestyle{fancy}
+%\pagenumbering{gobble}
+%\fancyhead[location]{text} 
+% Leave Left and Right Header empty.
+\lhead{}
+\rhead{}
+%\rhead{\thepage}
+\renewcommand{\headrulewidth}{0pt} 
+\renewcommand{\footrulewidth}{0pt} 
+\fancyfoot[C]{\footnotesize \textcolor{gray}{\href{https://norouzi.github.io/}{https://norouzi.github.io/}}} 
+
+%\pagestyle{myheadings}
+%\markboth{Sundar Iyer}{Sundar Iyer}
+
+\pagestyle{fancy}
+\lhead{\textcolor{gray}{\it Mohammad Norouzi}}
+%\rhead{\textcolor{gray}{\thepage/\totalpages{}}}
+%\rhead{\thepage}
+%\renewcommand{\headrulewidth}{0pt} 
+%\renewcommand{\footrulewidth}{0pt} 
+%\fancyfoot[C]{\footnotesize http://www.stanford.edu/$\sim$sundaes/application} 
+%\ref{TotPages}
+
+% This kind of makes 10pt to 9 pt.
+%\begin{small}
+
+%\vspace*{0.1cm}
+\begin{center}
+{\LARGE \bf Teaching Statement}\\
+\vspace*{0.1cm}
+{\normalsize Mohammad Norouzi (mnorouzi@google.com)}
+\vspace*{0.2cm}
+\end{center}
+%\vspace*{0.2cm}
+
+%\begin{document}
+%\centerline {\Large \bf Research Statement for Mohammad Norouzi}
+%\vspace{0.5cm}
+
+% Write about research interests...
+%\footnotemark
+%\footnotetext{Check This}
+
+\vspace*{-.1cm}
+I am passionate about teaching and mentorship in the academic setting,
+and this is the {\em main} reason that I am interested in an academic
+position, as opposed to my current research scientist role at Google
+Brain. I am satisfied with my current position, my open-ended research
+adgenda, and my research collaborations.  However, I miss the
+impactful long-term interactions with undergraduate and graduate
+students, and the strive for finding the simplest and most effective
+way to teach the students about machine learning and algorithms.
+
+I think of teaching as an {\em opportunity} for the teacher to find
+the most coherent and convincing story that connects the dots in the
+mind of the students. Through this process of distilling knowledge,
+the teacher and students develop new insights into existing
+literature, which can often lead to new research ideas.  In addition,
+through teaching, the teacher and the students form a special bond,
+which can last forever. This special human connection is valuable to
+me, and I feel honored when an old student remembers me after many
+years and tells me about their positive learning experience. I
+certainly remember my own teachers from elementry to graduate school,
+and I am grateful for their lasting impact on the trajectory of my
+life and career.
+
+My first teaching experience as the sole lecturer was during
+undergraduate school, when I had weekly classes at my own high school
+teaching problem solving and the basics of programming. Because of my
+background in Informatics Olympiad, I was invited to teach data
+strcuture and algorithms to the members of the Iranian team in
+Informatics Olympiad, to help prepare them for international
+competitions. At the University of Toronto, I have served as a
+teaching assistant on $7$ courses, taught tutorial sessions and held
+office hours in ``Foundations of Computer Vision'', ``Machine Learning
+and Data Mining'', ``Algorithm Design, Analysis and Complexity'',
+``Data Structures and Analysis'', and ``Introduction to Theory of
+Computation''. I have served as a guest lecturer at UC Berkeley on $3$
+occasions in graduate courses on ``Deep Reinforcement Learning'' and
+``Special Topics in Deep Learning''. I have given invited talks at
+Machine Learning and Computer Vision conferences, different
+universities, and research labs. I gave all of these talks and
+lectures enthusiastically, which made me realize that I have a
+long-term interest in teaching.
+
+I am passonate about teaching a range of courses related to my
+research background including ``Machine Learning'', ``Deep Learning'',
+``Reinforcement Learning'', ``Machine Learning for Vision'', and
+``Machine Learning for Natural Language Processing''. In addition, I
+am interested in and capable of teaching basic Computer Science
+courses such as ``Data Structures'', ``Algorithms'', and ``Programming
+Languages''. Moreover, I intend to create the curriculum and teach the
+following advanced courses:
+\vspace*{-.1cm}
+\begin{itemize}
+\item {\bf Deep Generative Models.} There has been a surge of
+  interesting research development in this area that deserve an
+  independent course. This course will cover autoregressive models,
+  variational auto-encoders, generative adversarial networks, and
+  models based on normalized flow. I will also discuss traditional
+  structured prediction models, and the new generation of sequence to
+  sequence models with corresponding discriminative objective functions.
+\vspace*{-.1cm}
+\item {\bf Special Topics in Reinforcement Learning.} There has been a
+  surge of interesting research on deep reinforcement learning
+  algorithms in the last few years. However, given the complexity of
+  the topic, the students often get lost between different
+  formulations with different assumptions and incompatible
+  experiments.  This course aims to select the most infulential recent
+  papers in Reinforcement Learning and categorize them to facilitate
+  an in-depth and coherent study.
+\end{itemize}
+
+During my time at the University of Toronto, I mentored ``Ali
+Punjani'' (an undergraduate student at the time) and, we published two
+papers together. During my time at Google, I have mentored $3$ interns
+and over $10$ Google Brain residents. My collaborations with interns
+and residents have been particularly fruitful, and the first author of
+most of my recent publications is either an intern or a brain
+resident. It has been particularly rewarding to see my mentees grow,
+turn into successful researchers, and get hired by our team or move
+onto excellent PhD programs. A few of my successful mentees include:
+``Ofir Nachum'', ``Azalia Mirhoseini'', ``Irwan Bello'', ``Hieu
+Pham'', ``Yun Liu'', ``Chen Liang'', and ``Supasorn Suwajanakorn''. I
+believe in collaborative research and I have worked closely with a
+long list of researchers on the Brain team during my $3$ years here.
+Different researchers bring complementary ideas and different
+perspectives into the table and help evolve research ideas. I believe
+that universities play a key role in training critical thinkers and
+successful researchers, and I cannot wait to take part in this
+endeavor.
+
+\vspace{0.5cm}
+%\begin{flushright}
+%Mohammad Norouzi
+%\end{flushright}
+
+%\end{small}
+%\newpage
+
+%\begin{thebibliography}{deSolaPITH}
+% Change font size?
+% \tiny, \footnotesize, \small,\normalsize, \large, \Large, \LARGE, and \huge 
+%\begin{small}
+\begin{small}
+
+\bibliographystyle{plain}
+\bibliography{bib.bib}
+
+\end{small}
+
+\end{document}
+
