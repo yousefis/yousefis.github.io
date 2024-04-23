@@ -1,0 +1,109 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>DONUT-hole: DONUT Sparsification by Harnessing Knowledge and Optimizing Learning Efficiency</title>
+      <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+      <!-- <link rel="shortcut icon" href="../../images/taco.png"> -->
+      <script>
+         function play(path) {{
+           var player = document.getElementById('player');
+           player.src = path;
+           player.play();
+         }}
+      </script>
+      <style>
+         .audio-cell {
+         /* Center audio widgets in the table cell. */
+         text-align: center;
+         padding-bottom: 1px;
+         padding-top: 1px;
+         }
+         .audio-cell-padded {
+         text-align: center;
+         padding-bottom: 10px;
+         padding-top: 10px;
+         }
+         .audio-header {
+         /* Don't wrap header text. */
+         white-space: nowrap;
+         /* Some breaking space between headers for readability. */
+         padding-right: 5px;
+         padding-left: 5px;
+         }
+         .reference-cell {
+         /* For uniformity and to wrap long reference text, limit the reference cell's width. */
+         width: 25%;
+         padding-top: 20px;
+         padding-bottom: 20px;
+         }
+         .sample audio {
+         vertical-align: middle;
+         padding-left: 3px;
+         padding-right: 3px;
+         }
+         .round-button {
+         box-sizing: border-box;
+         display:block;
+         width:30px;
+         height:30px;
+         padding-top: 8px;
+         padding-left: 3px;
+         line-height: 6px;
+         border: 1.2px solid #000;
+         border-radius: 50%;
+         color: #000;
+         text-align:center;
+         background-color: rgba(0,0,0,0.00);
+         font-size:6px;
+         box-shadow: 0px 0px 2px rgba(0,0,0,1);
+         transition: all 0.2s ease;
+         }
+         .round-button:hover {
+         background-color: rgba(0,0,0,0.0);
+         box-shadow: 0px 0px 4px rgba(0,0,0,1);
+         }
+         .round-button:active {
+         background-color: rgba(0,0,0,0.01);
+         box-shadow: 0px 0px 1px rgba(0,0,0,1);
+         }
+      </style>
+   </head>
+   <body>
+     <div class="main">
+       <article>
+         <header>
+           <h1>DONUT-hole: DONUT Sparsification by Harnessing Knowledge and Optimizing Learning Efficiency
+	     [<a href="https://arxiv.org/pdf/2311.05778.pdf">pdf</a>]</h1>
+         </header>
+      </article>
+	<img src="donut-hole.png" style="float:right; width: 450px; margin-left: 20px; display: block;" alt="SimCLR encourages different augmentations of each image to lie near each other in the representation space and far from augmentations of other images."/>	
+      <div>
+         <p>
+	   <a href="">Azhar Shaikh</a>,
+	   <a href="https://www.cochez.nl/">Michael Cochez</a>,
+	   <a href="">Denis Diachkov</a>,
+	   <a href="">Michiel de Rijcke</a>, 
+	   <a href="https://yousefis.github.io">Sahar Yousefi</a>, Want@NeurIPS 2023</p>
+      </div>
+      <div>
+      <p><b>Abstract:</b> This paper introduces DONUT-hole, a sparse OCR-free visual document under-
+standing (VDU) model that addresses the limitations of its predecessor model,
+dubbed DONUT. The DONUT model, leveraging a transformer architecture, over-
+coming the challenges of separate optical character recognition (OCR) and visual
+semantic understanding (VSU) components. However, its deployment in produc-
+tion environments and edge devices is hindered by high memory and computational
+demands, particularly in large-scale request services. To overcome these challenges,
+we propose an optimization strategy based on knowledge distillation and model
+pruning. Our paradigm to produce DONUT-hole, reduces the model denisty by 54%
+while preserving performance. We also achieve a global representational similarity
+index between DONUT and DONUT-hole based on centered kernel alignment
+(CKA) metric of 0.79. Moreover, we evaluate the effectiveness of DONUT-hole
+in the document image key information extraction (KIE) task, highlighting its
+potential for developing more efficient VDU systems for logistic companies.</p>
+      <p>
+	<ul>
+	  </ul>
+      </p>
+      </div>
+   </body>
+</html>
