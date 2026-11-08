@@ -3,6 +3,7 @@
 .back-link:hover { color: var(--accent); }
 .paper-header { padding-bottom: 32px; border-bottom: 1px solid var(--line); }
 .paper-header h1 { max-width: 740px; margin-bottom: 24px; font-size: clamp(2rem, 5vw, 3.1rem); }
+.abstract-lead { max-width: 680px; margin: 0; color: var(--muted); font-size: 1.1rem; }
 .paper-button { display: inline-flex; align-items: center; gap: 12px; padding: 10px 16px; border-radius: 999px; background: var(--accent); color: #fff; font-size: .94rem; font-weight: 700; text-decoration: none; }
 .paper-button:hover { background: #075d66; color: #fff; }
 .paper-section { margin-top: 34px; }
