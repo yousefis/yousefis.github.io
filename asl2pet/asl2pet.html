@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A semi-supervised residual attention-guided neural network for translating ASL MRI into PET images.">
+  <title>ASL-to-PET Translation | Sahar Yousefi</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../donut/stylesheet.css">
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <main class="main">
+    <article class="paper-page">
+      <a class="back-link" href="../index.html">← Back to Sahar Yousefi</a>
+      <header class="paper-header">
+        <p class="eyebrow">Medical Imaging · Image Translation</p>
+        <h1>ASL-to-PET Translation with Semi-Supervised Learning</h1>
+        <a class="paper-button" href="https://arxiv.org/abs/2103.05116">Read the paper <span aria-hidden="true">↗</span></a>
+        <p class="abstract-lead">A residual attention-guided neural network for translating arterial spin labeling (ASL) MRI into PET images.</p>
+      </header>
+
+      <section class="paper-section" aria-labelledby="authors-heading">
+        <h2 id="authors-heading">Authors</h2>
+        <p class="authors">Sahar Yousefi, Hessam Sokooti, Wouter M. Teeuwisse, Dennis F. R. Heijtel, Aart J. Nederveen, Marius Staring, and Matthias J. P. van Osch</p>
+      </section>
+
+      <section class="paper-section" aria-labelledby="overview-heading">
+        <h2 id="overview-heading">Overview</h2>
+        <p>PET can measure physiological function, but it requires radioactive tracers and can be costly. ASL is a non-invasive, non-radioactive MRI technique for measuring cerebral blood flow. This work investigates whether a neural network can translate ASL scans into PET images, while addressing the limited availability of paired ASL and PET training data.</p>
+      </section>
+
+      <section class="paper-section" aria-labelledby="approach-heading">
+        <h2 id="approach-heading">Approach and evaluation</h2>
+        <p>The semi-supervised multitask model learns from both paired ASL–PET scans and additional unpaired ASL scans. It uses a residual-based attention-guided mechanism to improve contextual features. The study also evaluates adding T1-weighted MRI as an input and uses seven-fold cross-validation followed by a double-blind observer study.</p>
+        <dl class="metrics">
+          <div><dt>SSIM</dt><dd>0.85 ± 0.08</dd><span>2D ASL + T1-weighted input</span></div>
+          <div><dt>Mean squared error</dt><dd>0.01 ± 0.01</dd><span>Reported image metric</span></div>
+          <div><dt>PSNR</dt><dd>21.8 ± 4.5 dB</dd><span>2D ASL + T1-weighted input</span></div>
+        </dl>
+      </section>
+
+      <section class="paper-section" aria-labelledby="links-heading">
+        <h2 id="links-heading">Project links</h2>
+        <nav class="contact-links" aria-label="ASL-to-PET resources">
+          <a href="https://github.com/yousefis/ASL2PET">Source code and README</a>
+          <a href="https://arxiv.org/abs/2103.05116">Paper on arXiv</a>
+        </nav>
+      </section>
+    </article>
+  </main>
+</body>
+</html>

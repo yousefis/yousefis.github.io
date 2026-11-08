@@ -1,0 +1,6 @@
+.metrics { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin: 26px 0 0; }
+.metrics div { display: flex; flex-direction: column; align-items: flex-start; padding: 18px; border: 1px solid var(--line); border-radius: 12px; background: var(--wash); }
+.metrics dt { color: var(--muted); font-size: .82rem; font-weight: 700; }
+.metrics dd { margin: 4px 0 2px; color: var(--ink); font: 700 1.45rem/1.3 'Manrope', 'DM Sans', sans-serif; }
+.metrics span { color: var(--muted); font-size: .82rem; }
+@media (max-width: 620px) { .metrics { grid-template-columns: 1fr; } }
