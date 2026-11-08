@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A 3D Dense U-Net for reconstructing dynamic perfusion and angiography from Hadamard time-encoded ASL data.">
+  <title>Hadamard-te-ASL Reconstruction | Sahar Yousefi</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../donut/stylesheet.css">
+</head>
+<body>
+  <main class="main">
+    <article class="paper-page">
+      <a class="back-link" href="../index.html">← Back to Sahar Yousefi</a>
+      <header class="paper-header">
+        <p class="eyebrow">Medical Imaging · Arterial Spin Labeling</p>
+        <h1>Fast Dynamic Perfusion and Angiography Reconstruction</h1>
+        <a class="paper-button" href="https://arxiv.org/abs/1908.08947">Read the paper <span aria-hidden="true">↗</span></a>
+        <p class="abstract-lead">An end-to-end 3D convolutional network for reconstructing dynamic perfusion and angiographic images from Hadamard time-encoded ASL data.</p>
+      </header>
+
+      <section class="paper-section" aria-labelledby="authors-heading">
+        <h2 id="authors-heading">Authors</h2>
+        <p class="authors">Sahar Yousefi, Lydiane Hirschler, Merlijn van der Plas, Mohamed S. Elmahdy, Hessam Sokooti, Matthias J. P. van Osch, and Marius Staring</p>
+      </section>
+
+      <section class="paper-section" aria-labelledby="overview-heading">
+        <h2 id="overview-heading">Overview</h2>
+        <p>Rank-8 Hadamard time-encoded pseudo-continuous arterial spin labeling (te-pCASL) captures temporal information in the labeling sequence. Acquisitions with and without flow crushing can provide both perfusion information and 4D angiographic information. This work investigates reconstructing both from a single interleaved acquisition, reducing the need for separate scans.</p>
+      </section>
+
+      <section class="paper-section" aria-labelledby="approach-heading">
+        <h2 id="approach-heading">Reconstruction approach</h2>
+        <p>The method uses a 3D Dense U-Net with a multi-level loss function to reconstruct multi-timepoint perfusion and angiographic data from interleaved, 50%-sampled flow-crushed and non-crushed measurements. A data-generation framework based on intravascular and extravascular te-pCASL signal models was used to create training and validation data. The paper evaluates the method on 313 test datasets.</p>
+      </section>
+
+      <section class="paper-section" aria-labelledby="links-heading">
+        <h2 id="links-heading">Project links</h2>
+        <nav class="contact-links" aria-label="Hadamard-te-ASL resources">
+          <a href="https://github.com/yousefis/Hadamard-te-ASL-recon">Source code and README</a>
+          <a href="https://arxiv.org/abs/1908.08947">Paper on arXiv</a>
+        </nav>
+      </section>
+    </article>
+  </main>
+</body>
+</html>
