@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="DDAUnet is a dilated dense attention U-Net for automatic esophageal tumor segmentation in CT images.">
+  <title>DDAUnet | Sahar Yousefi</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../donut/stylesheet.css">
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <main class="main">
+    <article class="paper-page">
+      <a class="back-link" href="../index.html">← Back to Sahar Yousefi</a>
+      <header class="paper-header">
+        <p class="eyebrow">Medical Imaging · CT Segmentation</p>
+        <h1>Esophageal Tumor Segmentation in CT Images Using DDAUnet</h1>
+        <a class="paper-button" href="https://doi.org/10.1109/ACCESS.2021.3096270">Read the paper <span aria-hidden="true">↗</span></a>
+        <p class="abstract-lead">A fully automatic deep learning method for delineating esophageal tumors from CT images.</p>
+      </header>
+
+      <section class="paper-section" aria-labelledby="authors-heading">
+        <h2 id="authors-heading">Authors</h2>
+        <p class="authors">Sahar Yousefi, Hessam Sokooti, Mohamed S. Elmahdy, Irene M. Lips, Mohammad T. Manzuri Shalmani, Roel T. Zinkstok, Frank J. W. M. Dankers, and Marius Staring</p>
+      </section>
+
+      <section class="paper-section" aria-labelledby="overview-heading">
+        <h2 id="overview-heading">Overview</h2>
+        <p>Esophageal tumor delineation in CT is challenging because tumors can have low contrast against nearby tissue, anatomy varies between patients, and scans may include air pockets or feeding tubes. DDAUnet is a convolutional neural network designed to automatically segment the gross tumor volume using CT images alone.</p>
+      </section>
+
+      <section class="paper-section" aria-labelledby="approach-heading">
+        <h2 id="approach-heading">Approach and results</h2>
+        <p>The network combines dense blocks with dilated convolutions and spatial and skip-connection attention gates. Dilated layers expand the receptive field, while the attention gates help focus on relevant regions and feature maps. The study evaluated the method on 792 CT scans from 288 patients. On 287 test scans, the paper reports a mean Dice similarity coefficient (DSC) of 0.79 ± 0.20.</p>
+        <dl class="metrics">
+          <div><dt>Scans</dt><dd>792</dd><span>CT scans in the study</span></div>
+          <div><dt>Patients</dt><dd>288</dd><span>Distinct patients</span></div>
+          <div><dt>Mean test DSC</dt><dd>0.79 ± 0.20</dd><span>Across 287 test scans</span></div>
+        </dl>
+      </section>
+
+      <section class="paper-section" aria-labelledby="links-heading">
+        <h2 id="links-heading">Project links</h2>
+        <nav class="contact-links" aria-label="DDAUnet resources">
+          <a href="https://github.com/yousefis/DenseUnet_Esophagus_Segmentation">Source code and README</a>
+          <a href="https://doi.org/10.1109/ACCESS.2021.3096270">IEEE Access paper</a>
+          <a href="https://arxiv.org/abs/2012.03242">arXiv preprint</a>
+        </nav>
+      </section>
+    </article>
+  </main>
+</body>
+</html>
